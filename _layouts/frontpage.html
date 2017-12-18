@@ -12,6 +12,20 @@ format: frontpage
 
 {% comment %}
 *
+* Finally, if there is content, spit it out.
+*
+{% endcomment %}
+
+<div class="row">
+	<p></p>
+	<p></p>
+
+    {{ content }}
+</div><!-- /.row -->
+
+
+{% comment %}
+*
 * First check, if widget is empty or not by checking if there is a title
 *
 {% endcomment %}
@@ -28,6 +42,11 @@ format: frontpage
 
 	{% if page.widget3.title %}
 		{% include _frontpage-widget.html widget=page.widget3 %}
+	{% endif %}
+	
+	
+	{% if page.widget4.title %}
+		{% include _frontpage-widget.html widget=page.widget4 %}
 	{% endif %}
 </div><!-- /.row -->
 
@@ -102,12 +121,3 @@ format: frontpage
 {% endunless %}
 
 
-{% comment %}
-*
-* Finally, if there is content, spit it out.
-*
-{% endcomment %}
-
-<div class="row">
-    {{ content }}
-</div><!-- /.row -->

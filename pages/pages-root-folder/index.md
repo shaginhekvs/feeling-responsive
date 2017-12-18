@@ -6,22 +6,30 @@
 #
 layout: frontpage
 header:
-  image_fullwidth: header_unsplash_12.jpg
+  image_fullwidth: /anatomy-hashtags/assets/img/logo2.png
 widget1:
-  title: "Blog & Portfolio"
-  url: 'http://phlow.github.io/feeling-responsive/blog/'
-  image: widget-1-302x182.jpg
-  text: 'Every good portfolio website has a blog with fresh news, thoughts and develop&shy;ments of your activities. <em>Feeling Responsive</em> offers you a fully functional blog with an archive page to give readers a quick overview of all your posts.'
+  title: "Black Lives Matter"
+  url: '/black-lives-matter/'
+  image: /anatomy-hashtags/assets/img/ALLM.png
+  text: 'In 1992, four LA police officers were videotaped beating a black man named Rodney King. Their later acquittal instigated riots, lootings, arsons, and civil disturbances in what is now known as the 1992 Rodney King riots, but these events did not result in a social movement . However, in summer 2013, the death of Trayvon Martin and the acquittal of his killer provoked the birth of Black Lives Matter, a protest that spread throughout all US and is known all over  the world. What made the difference between the two events? Social media. Black Lives Matter supposed the consolidation of a new form of protest: Hashtag activism.'
 widget2:
-  title: "Why use this theme?"
-  url: 'http://phlow.github.io/feeling-responsive/info/'
-  text: '<em>Feeling Responsive</em> is heavily customizable.<br/>1. Language-Support :)<br/>2. Optimized for speed and it&#39;s responsive.<br/>3. Built on <a href="http://foundation.zurb.com/">Foundation Framework</a>.<br/>4. Seven different Headers.<br/>5. Customizable navigation, footer,...'
-  video: '<a href="#" data-reveal-id="videoModal"><img src="http://phlow.github.io/feeling-responsive/images/start-video-feeling-responsive-302x182.jpg" width="302" height="182" alt=""/></a>'
+  title: "Trump and Resist"
+  url: '/trump/'
+  image: /anatomy-hashtags/assets/img/
+  text:
+
 widget3:
-  title: "Download Theme"
-  url: 'https://github.com/Phlow/feeling-responsive'
-  image: widget-github-303x182.jpg
-  text: '<em>Feeling Responsive</em> is free and licensed under a MIT License. Make it your own and start building. Grab the <a href="https://github.com/Phlow/feeling-responsive/tree/bare-bones-version">Bare-Bones-Version</a> for a fresh start or learn how to use it with the <a href="https://github.com/Phlow/feeling-responsive/tree/gh-pages">education-version</a> with sample posts and images. Then tell me via Twitter <a href="http://twitter.com/phlow">@phlow</a>.'
+  title: "Misogyny"
+  url: '/misogyny/'
+  image: /anatomy-hashtags/assets/img/
+  text: 
+  
+image: /anatomy-hashtags/assets/img/graph.PNG
+callforaction:
+  title: "Graph"
+  url: https://warm-taiga-10032.herokuapp.com/ada_app_2017
+  
+  text: Here you can find a graph that shows the communities present in each protest and all the plots presented in the analysis.
 #
 # Use the call for action to show a button on the frontpage
 #
@@ -32,10 +40,6 @@ widget3:
 # to use the main color or success, alert or secondary.
 # To change colors see sass/_01_settings_colors.scss
 #
-callforaction:
-  url: https://tinyletter.com/feeling-responsive
-  text: Inform me about new updates and features ›
-  style: alert
 permalink: /index.html
 #
 # This is a nasty hack to make the navigation highlight
@@ -44,9 +48,8 @@ permalink: /index.html
 homepage: true
 ---
 
-<div id="videoModal" class="reveal-modal large" data-reveal="">
-  <div class="flex-video widescreen vimeo" style="display: block;">
-    <iframe width="1280" height="720" src="https://www.youtube.com/embed/3b5zCFSmVvU" frameborder="0" allowfullscreen></iframe>
-  </div>
-  <a class="close-reveal-modal">&#215;</a>
-</div>
+This project analyzes the coverage of social movements in Twitter. Twitter allows one to connect with people from all over the world in a short amount of time, creating new ways to participate and support social movement. News appear on twitter before they do in traditional medias like newspapers and the impact and importance of any statement is now measured in how many people retweet it. We study how users see, share and discuss these protests and movements and analyze different trends in three protests:
+
+* Black Lives Matter:  The protest that started it all, calling for an end to police brutality and the racism in the U.S against black people.
+* Trump: Since the day Trump became president of the United States, a protest under the flag #Resist, rose, facing the many of Trump supporters behind the hashtag #MAGA.
+* Misogyny: One of the most active movements today and not just a single protest, but an accumulation of them, all calling for a stop in the harassment, rape and violence towards women.
